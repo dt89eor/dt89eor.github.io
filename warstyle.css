@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('images\\wooden_table.png'); 
+    font-weight: bold;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  h1 {
+    margin-top: 50px;
+  }
+  .game-link {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  .card {
+    width: 10%;
+  }
+  .game-link:hover {
+    background-color: #ddd;
+  }
