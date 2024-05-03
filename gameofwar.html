@@ -9,15 +9,15 @@
 <body>
   <h1>War</h1>
   <a href="index.html" class="game-link">Game Arcade</a>
-  <script src="war_card_game.js"></script>
   <div id="player">
     <h2>Player</h2>
-    <img src="images\\back.png" alt="${playerCard.value} of ${playerCard.suit}" class="card" id="player-card">
+    <img src="images\\back.png" alt="player card" class="card" id="player-card">
   </div>
   <div id="ai">
     <h2>AI</h2>
-    <img src="images\\back.png" alt="${aiCard.value} of ${aiCard.suit}" class="card" id="ai-card">
+    <img src="images\\back.png" alt="ai card" class="card" id="ai-card">
   </div>
+  <script src="war_card_game.js"></script>
   <button onclick="playRound()">Play Round</button>
   <p id="result"></p>
 
