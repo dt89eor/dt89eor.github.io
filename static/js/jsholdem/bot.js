@@ -109,6 +109,7 @@ function bot_get_preflop_bet () {
     if (num_players_playing_the_hand > 3) return internal_what_do_x("3:ALLIN,17:BIG,30:MED,30:SMALL,20:CALL");
     return internal_what_do_x("1:ALLIN,2:BIG,7:MED,40:SMALL,50:CALL");
   }
+  // simple chekcers here for the bot and what to bet if the bot needs to call or not
   if (HCONF > 50) {
     if (POT_LEVEL > 75) {
       if (CALL_LEVEL < 40) return CALL;
@@ -120,6 +121,7 @@ function bot_get_preflop_bet () {
     }
     return internal_what_do_x("1:ALLIN,1:BIG,5:MED,20:SMALL,73:CALL");
   }
+    // simple chekcers here for the bot and what to bet if the bot needs to call or not
   if (HCONF > 40) {
     if (BET_LEVEL > 40) {
       if (CALL_LEVEL < 40) return CALL;
